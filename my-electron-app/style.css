@@ -1,0 +1,12 @@
+:root{
+--gameCubePurple:#685aac;
+--gameCubeGrey:#d7d8d8;
+--gameCubeYellow:#fff001;
+--gameCubeGreen:#00b875;
+/*--gameCubeBlue:;*/
+--gameCubeRed:#ff373e;
+}
+
+:body {
+background-color:gameCubePurple;
+}
