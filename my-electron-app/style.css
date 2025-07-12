@@ -7,10 +7,87 @@
 --gameCubeRed:#ff373e;
 }
 
-:body {
-background-color:gameCubePurple;
+body {
+background-color: var(--gameCubePurple);
 }
 
-:h1 {
-    color: #685aac;
+h1 {
+    color:var(--gameCubeGreen);
+}
+
+
+.pixelify-sans{
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.layers-container {
+  display: flex;
+  position: relative;
+}
+
+.BG {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.device-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  
+
+}
+
+.floppy-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.btn {
+    border: none;
+    background-color: var(--gameCubeYellow);
+    /* padding: 14px 28px; */
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.timer {
+font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-size: 50px;
+  font-style: normal;
+  transform: rotate(-14deg);
+  padding-left: 10px;
 }
