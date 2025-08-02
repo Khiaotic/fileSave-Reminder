@@ -11,6 +11,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
     <script defer src="render.js"></script>
+    <script defer src="timer.js"></script>
   </head>
   <body>
     <div class="container">
@@ -19,7 +20,7 @@
   <div  class="layers-container">
     <img src="./assets/usbsave_64x64_ps.png" alt="device" class="device-container" >
     <!-- <img src="./assets/floppydisk_save_32x32_ps.png" alt="floppy_disk" class="floppy-container" > -->
-    <h1  class="floppy-container pixelify-sans timer" >
+    <h1  id="numbers" class="floppy-container pixelify-sans timer" >
       :20
       </h1>
   </div>
@@ -31,7 +32,7 @@
 </div>
 <div class="container">
   <h1 class="pixelify-sans">
-    <button class="btn pixelify-sans">
+    <button id="start-btn" class="btn pixelify-sans">
       START
     </button>
   </h1>

@@ -15,3 +15,4 @@ const mainWindow = () => {
 app.whenReady().then(() => {
   mainWindow()
 })
+
