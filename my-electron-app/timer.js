@@ -5,11 +5,22 @@ const end= 0;
 var alert = new Audio ("./assets/8-bit-video-game-fail-version-2-145478.mp3")
 //referencing the audio in () makes it an object? 
 let manualPause= false 
+let isPaused = false
 
 
-function playAudio(){
+function playAudio() {
     alert.play();
 }
+
+function pauseCountDown () {
+    if (!isPaused) {
+        console.log ("I've been paused, homie", i);
+        setTimeout(() => {countDown(i - 1)}, 1000)
+    } else {
+        countDown(i)
+        console.log ("uh?");
+    }
+
 
 
 function countDown(i) {
@@ -22,7 +33,7 @@ function countDown(i) {
    alert.loop = true;
 
   
-    //stop the alert from playing after 8 seconds if manual pause is not pressed
+ //stop the alert from playing after 8 seconds if manual pause is not pressed
     setTimeout(() => {
         if (!manualPause) {
             alert.pause()
@@ -45,6 +56,10 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("start-btn").addEventListener("click", () => {
     countDown(3);
 
+});
+document.getElementById("b-button").addEventListener("click", () => {
+        countDown.currentTime = i;
+        isPause = true
 });
 document.getElementById("a-button").addEventListener("click", () => {
         alert.pause()
