@@ -27,6 +27,11 @@ h1 {
     display: flex;
     justify-content: center;
 }
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .layers-container {
   display: flex;
@@ -80,6 +85,13 @@ h1 {
     font-size: 16px;
     cursor: pointer;
     display: inline-block;
+}
+
+.btn-two {
+  border: none;
+  background: none;
+  background-color: transparent;
+   cursor: pointer;
 }
 
 .timer {
