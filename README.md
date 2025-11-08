@@ -5,7 +5,7 @@
 
 
 ## ✨Overview (description)✨
-<h3 align="center">A cross-browser app ran by Electron Forge, Javascript, CSS, and HTML. THis app features a 20 minute timer that counts down til the next time a creative needs to save a project they're currently working on. 
+<h3 align="center">A cross-browser app ran by Electron Forge, Javascript, CSS, and HTML. This app features a 20 minute timer that counts down til the next time a creative needs to save a project they're currently working on. 
   Somestimes a creatives' flow state gets the best of them and they forget to intermittently save. Eventually, I plan on making this a physical device that can be coded to adopt other code and interact with one another like 
   the 2005 Cube World electronic toy. Equipped with a stainless steel keychain. </h3>
 
